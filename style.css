@@ -1,7 +1,7 @@
 body {
     background-image: url("body1.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
@@ -42,11 +42,10 @@ a {
 .aa {
     height: max-content;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-
-    /* color: white; */
-    /* position: fixed; */
+    background-color: rgba(0, 0, 0, 0.6);
 }
+.pare{background-color: transparent;
+color: white;}
 
 /* .h1{ margin-top: 80px;} */
 
@@ -95,5 +94,25 @@ h4 {
 
 .pourc{text-align: center;
 color: white;}
-.q{background-color:red;
-height: 4px;}
+/* .q{background-color:red;
+height: 4px;} */
+
+.trai{background-color: red;
+    height: 5px;
+    width: 200px;
+   
+}
+
+.hh{background-color: red;
+
+height: 5px;
+}
+
+.trai2{
+justify-content:center;
+align-items: center;
+align-content: center;}
+
+.hr1{
+height: 10px;
+text-align: center;}
