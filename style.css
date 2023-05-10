@@ -201,3 +201,18 @@ height: 4px;} */
     background-color: blue;
     height: 5px;
 }
+.tr span{
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background: red;
+    position: relative;
+    right: 13px;
+    top: 100px;
+}
+.tr .cercle{
+    background: green;
+    position: relative;
+    top: 450px;
+}
