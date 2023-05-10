@@ -19,9 +19,15 @@ body {
     border: solid 1px white;
 }
 
+.t {
+    color: white;
+    text-align: center;
+}
+
 .aa {
     padding: 10px;
 }
+
 
 .dd {
     color: white;
@@ -42,7 +48,7 @@ a {
 .aa {
     height: max-content;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .pare {
@@ -51,18 +57,9 @@ a {
     padding: 5px;
 }
 
-/* .h1{ margin-top: 80px;} */
-
 .container {
     text-align: center;
     color: white;
-}
-
-hr {
-    background-color: red;
-    width: 100%;
-    height: 3px;
-    align-items: center;
 }
 
 .card-img {
@@ -112,33 +109,95 @@ height: 4px;} */
 }
 
 .hh {
-    background-color: red;
-
+    background-color: orangered;
     height: 5px;
+    width: 200px;
+    justify-items: center;
 }
 
 .trai2 {
     justify-content: center;
-    align-items: center;
+    margin-left: 60px;
     align-content: center;
 }
 
 .hr1 {
-    height: 10px;
+    height: 20px;
     text-align: center;
 }
 
-.droite {
+.tr {
+    display: block;
     width: 2px;
-    height: 600px;
+    height: 650px;
     background-color: orangered;
-    margin: 30px;
+    margin: 50%;
 }
+
+.cercle {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+
 
 .dis {
     display: flex;
     justify-content: space-between;
 }
-.card{background-color: transparent;
+
+.card {
+    background-color: transparent;
     color: white;
+    border: none;
+
+}
+
+.pro {
+    display: flex;
+}
+
+/* .az{display: flex;} */
+.card {
+    text-align: center;
+}
+
+.line1 {
+    background-color: red;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 8px;
+}
+
+.line2 {
+    background-color: red;
+
+    height: 3px;
+
+}
+
+.l1 {
+    background-color: yellow;
+    height: 5px;
+}
+
+.l2 {
+    background-color: rgb(14, 233, 14);
+    height: 5px;
+}
+
+.l3 {
+    background-color: rgb(122, 99, 125);
+    height: 5px;
+}
+
+.l4 {
+    background-color: red;
+    height: 5px;
+}
+
+.l5 {
+    background-color: blue;
+    height: 5px;
 }
