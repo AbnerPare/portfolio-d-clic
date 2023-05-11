@@ -45,10 +45,13 @@ a {
     color: white;
 }
 
+iframe{border-radius: 50px;
+border: solid green 5px;}
+
 .aa {
     height: max-content;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0,0.8);
 }
 
 .pare {
@@ -208,12 +211,12 @@ height: 4px;} */
     border-radius: 50px;
     background: red;
     position: relative;
-    right: 13px;
+    right: 14px;
     top: 100px;
 }
 .tr .cercle{
     background: green;
     position: relative;
-    top: 450px;
+    top: 500px;
 }
 i{font-size: 60;}
