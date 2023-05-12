@@ -45,13 +45,10 @@ a {
     color: white;
 }
 
-iframe{border-radius: 50px;
-border: solid green 5px;}
-
 .aa {
     height: max-content;
     width: 100%;
-    background-color: rgba(0, 0, 0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .pare {
@@ -204,7 +201,8 @@ height: 4px;} */
     background-color: blue;
     height: 5px;
 }
-.tr span{
+
+.tr span {
     display: block;
     height: 30px;
     width: 30px;
@@ -214,12 +212,33 @@ height: 4px;} */
     right: 14px;
     top: 100px;
 }
-.tr .cercle{
+
+.tr .cercle {
     background: green;
     position: relative;
     top: 500px;
 }
-i{font-size: 60;}
-.ll{text-align: justify;}
-.fi{text-align: justify;
-padding: 10px;}
+
+i {
+    font-size: 60;
+}
+
+.ll {
+    text-align: justify;
+}
+
+.fi {
+    text-align: justify;
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .tr{
+        display: none;
+      }
+  }
+
+  @media (max-width: 600px) {
+   .al,.gg{
+      color:aqua;
+    }
+  }
