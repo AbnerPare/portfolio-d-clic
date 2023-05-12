@@ -220,4 +220,6 @@ height: 4px;} */
     top: 500px;
 }
 i{font-size: 60;}
-.ll{text-align: left;}
+.ll{text-align: justify;}
+.fi{text-align: justify;
+padding: 10px;}
