@@ -6,7 +6,6 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100%;
-
     z-index: -1;
 }
 
@@ -231,14 +230,20 @@ i {
     text-align: justify;
     padding: 10px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .tr{
         display: none;
       }
   }
 
-  @media (max-width: 600px) {
-   .al,.gg{
+  @media (max-width: 500px) {
+   .gg{
       color:aqua;
     }
   }
+  @media (max-width: 767px) {
+    .al{
+       color:aqua;
+     }
+   }
+  
